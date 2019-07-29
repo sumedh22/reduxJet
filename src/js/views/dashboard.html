@@ -1,0 +1,16 @@
+<!--
+ Copyright (c) 2014, 2018, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+<div class="oj-hybrid-padding">
+  <h1>Dashboard Content Area</h1>
+  <div>
+     <oj-bind-for-each data="[[lov]]">
+      <template>
+        <p>
+          <oj-bind-text value="[[$current.data.title]]"></oj-bind-text>
+        </p>
+      </template>
+     </oj-bind-for-each>
+  </div>
+</div>
