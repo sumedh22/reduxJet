@@ -44,8 +44,8 @@
       "cwd": "node_modules/knockout/build/output",
       "debug": {
         "src": "knockout-latest.debug.js",
-        "path": "libs/knockout/knockout-#{version}.debug.js",
-        "cdnPath": "knockout/knockout-3.4.2.debug"
+        "path": "libs/knockout/knockout-#{version}.js",
+        "cdnPath": "knockout/knockout-3.4.2"
       },
       "release": {
         "src": "knockout-latest.js",
@@ -143,12 +143,12 @@
       "cdn": "jet",
       "cwd": "node_modules/@oracle/oraclejet/dist/js/libs/oj",
       "debug": {
-        "cwd": "debug",
+        "cwd": "min",
         "src": [
           "**"
         ],
-        "path": "libs/oj/v#{version}/debug",
-        "cdnPath": "debug"
+        "path": "libs/oj/v#{version}/min",
+        "cdnPath": "min"
       },
       "release": {
         "cwd": "min",
@@ -258,7 +258,7 @@
       "cwd": "node_modules/require-css",
       "debug": {
         "src": [
-          "css.js",
+          "css.min.js",
           "css-builder.js",
           "normalize.js"
         ],

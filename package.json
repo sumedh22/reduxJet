@@ -7,7 +7,8 @@
     "generator-code": "^1.2.1",
     "redux": "^4.0.1",
     "redux-persist": "^5.10.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "serve": "^11.1.0"
   },
   "devDependencies": {
     "@oracle/grunt-oraclejet": "^6.2.0",

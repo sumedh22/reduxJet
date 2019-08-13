@@ -18,7 +18,7 @@ define([
    * follows a different convention (such as function maps) if it makes sense for your
    * project.
    */
-  let defaultState =  { loggedIn: false, lov: { loaded: false, data: [] } };
+  let defaultState =  { loggedIn: true, lov: { loaded: false, data: [] } };
 
   const reducer = (state = defaultState, action) => {
     switch (action.type) {
